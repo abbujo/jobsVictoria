@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.gallery {
+        margin: 5px;
+        border: 5px solid #ccc;
+        float: left;
+        width: 600px;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DATA VISUALIZATION DASHBOARD</h1>
+    <br /><br />
+    <div>
+      
+      <br />
+
+      <div class="gallery">
+        <a
+          target="_blank"
+          href="{{url_for('static', filename='img/analysis1.png')}}"
+        >
+          <img
+            src="{{url_for('static', filename='img/analysis1.png')}}"
+            alt="Cinque Terre"
+            width="1200"
+            height="800"
+          />
+        </a>
+        <div class="desc">Activity type frequency</div>
+      </div>
+
+      <div class="gallery">
+        <a
+          target="_blank"
+          href="{{url_for('static', filename='img/analysis2.png')}}"
+        >
+          <img
+            src="{{url_for('static', filename='img/analysis2.png')}}"
+            alt="Forest"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Activity vs Outcome Graph</div>
+      </div>
+
+      <div class="gallery">
+        <a
+          target="_blank"
+          href="{{url_for('static', filename='img/analysis3.png')}}"
+        >
+          <img
+            src="{{url_for('static', filename='img/analysis3.png')}}"
+            alt="Northern Lights"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Activity vs Outcome - Consolidated Graph</div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div>
+      
+      <br />
+      <div class="gallery">
+        <a
+          target="_blank"
+          href="{{url_for('static', filename='img/analysis4.png')}}"
+        >
+          <img
+            src="{{url_for('static', filename='img/analysis4.png')}}"
+            alt="Mountains"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Top 10 Employable Industries</div>
+      </div>
+      <div class="gallery">
+        <a
+          target="_blank"
+          href="{{url_for('static', filename='img/analysis5.png')}}"
+        >
+          <img
+            src="{{url_for('static', filename='img/analysis5.png')}}"
+            alt="Mountains"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Boxplot Analysis for Age of Participants</div>
+      </div>
+    </div>
+    <div class="gallery">
+      <a
+        target="_blank"
+        href="{{url_for('static', filename='img/analysis6.png')}}"
+      >
+        <img
+          src="{{url_for('static', filename='img/analysis6.png')}}"
+          alt="Mountains"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="desc">Top 10 Suburbs from where participant's register</div>
+    </div>
+    <div class="gallery">
+      <a
+        target="_blank"
+        href="{{url_for('static', filename='img/analysis7.png')}}"
+      >
+        <img
+          src="{{url_for('static', filename='img/analysis7.png')}}"
+          alt="Mountains"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="desc">Top 10 Primary Demographic of participants</div>
+    </div>
+    <div class="gallery">
+      <a
+        target="_blank"
+        href="{{url_for('static', filename='img/analysis8.png')}}"
+      >
+        <img
+          src="{{url_for('static', filename='img/analysis8.png')}}"
+          alt="Mountains"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="desc">Top 10 Main Language of participants (Other than English)</div>
+    </div>
+    <div class="gallery">
+      <a
+        target="_blank"
+        href="{{url_for('static', filename='img/analysis9.png')}}"
+      >
+        <img
+          src="{{url_for('static', filename='img/analysis9.png')}}"
+          alt="Mountains"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="desc">Top 10 Country of Birth of participants (Other than Australia)</div>
+    </div>
+    <div class="gallery">
+      <a
+        target="_blank"
+        href="{{url_for('static', filename='img/analysis10.png')}}"
+      >
+        <img
+          src="{{url_for('static', filename='img/analysis10.png')}}"
+          alt="Mountains"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="desc">Top 10 Industry Code that take most days for placement (Mean)</div>
+    </div>
+    <div class="gallery">
+      <a
+        target="_blank"
+        href="{{url_for('static', filename='img/analysis11.png')}}"
+      >
+        <img
+          src="{{url_for('static', filename='img/analysis11.png')}}"
+          alt="Mountains"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="desc">Top 10 Industry Code that take least days for placement (Mean)</div>
+    </div>
+    </div>
+  </body>
+</html>
